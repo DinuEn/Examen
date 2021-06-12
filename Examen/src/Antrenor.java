@@ -1,7 +1,6 @@
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Date;
+
 
 public class Antrenor extends Persoana{
     private int nrCursanti = 0;

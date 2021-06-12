@@ -63,6 +63,14 @@ public class Fitness {
         return "";
     }
 
+
+    public String adaugaNews(String mesaj){
+        fitnessNews.setNews(mesaj);
+        String aux = fitnessNews.notifyObservers();
+        return "A fost adaugata stirea cu mesajul " + mesaj + '\n' + aux;
+    }
+
+
     public String subscribeAbonat(){
         if(abonatCurent == null)
             return "Nu exista niciun abonat logat!";

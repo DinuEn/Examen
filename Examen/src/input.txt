@@ -11,7 +11,10 @@ LOGIN_ABONAT mula2@strula.com parolaOK
 ADAUGA_ANTRENOR strula2@strula.com
 ADAUGA_ANTRENOR strula@strula.com
 LOGIN_ANTRENOR strula@strula.com parolaOK
+SUBSCRIBE_ABONAT
+SUBSCRIBE_ANTRENOR
 VIZUALIZARE_ABONATII_MEI
 LOGOUT_ANTRENOR strula@strula.com
 LOGIN_ANTRENOR strula2@strula.com parolaOK
 VIZUALIZARE_ABONATII_MEI
+ADAUGA_NEWS reducere la case din chirpici

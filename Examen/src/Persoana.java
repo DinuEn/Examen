@@ -45,4 +45,10 @@ public class Persoana implements Observer{
         subject.addObserver(this);
     }
 
+    @Override
+    public String update(String news){
+        return "A fost notificata persoana cu adresa de email" + mail + "de stirea cu mesajul " + news + '\n';
+    }
+
+
 }

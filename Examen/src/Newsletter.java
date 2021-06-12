@@ -14,8 +14,13 @@ public class Newsletter implements Subject{
         observers.add(observer);
     }
 
-//    @Override
-//    public void notifyObservers(){
-//        observers.forEach(observer -> observer.update(news));
-//    }
+    @Override
+    public String notifyObservers(){
+        StringBuilder auxStringBuilder = new StringBuilder();
+
+        for(Observer observer : observers){
+            auxStringBuilder.append(observer.update(news));
+        }
+        return auxStringBuilder.toString();
+    }
 }

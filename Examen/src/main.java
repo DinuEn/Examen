@@ -120,6 +120,10 @@ public class main {
                 //Instructiuni fara logare
 
                 case "ADAUGA_NEWS":
+                    String mesaj = arrayOfStrings[1];
+
+                    message = gym.adaugaNews(mesaj);
+                    writer.write(message + '\n');
                     break;
 
                 case "INTRA_IN_SALA":

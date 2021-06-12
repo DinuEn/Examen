@@ -5,8 +5,14 @@ Antrenorul strula2 a fost adaugat!
 Parola incorecta!
 Abonatul mula@strula.com a fost deconectat!
 Nu exista niciun abonat logat!
+Abonatul cu adresa de email mula2@strula.com a fost abonat la newsletter
+Antrenorul cu adresa de email strula@strula.com a fost abonat la newsletter
 Antrenorul cu mailul strula@strula.com are abonatii cu mailurile:
 mula@strula.com mula2@strula.com 
 Antrenorul strula@strula.com a fost deconectat!
 Antrenorul cu mailul strula2@strula.com are abonatii cu mailurile:
+
+A fost adaugata stirea cu mesajul reducere
+A fost notificata persoana cu adresa de emailmula2@strula.comde stirea cu mesajul reducere
+A fost notificata persoana cu adresa de emailstrula@strula.comde stirea cu mesajul reducere
 
