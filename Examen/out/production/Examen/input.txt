@@ -1,0 +1,17 @@
+SIGNUP_ABONAT mula@strula.com mula 5 parolaOK parolaOK
+SIGNUP_ABONAT mula2@strula.com mula2 5 parolaOK parolaOK
+SIGNUP_ANTRENOR strula@strula.com strula 5 parolaOK parolaOK
+SIGNUP_ANTRENOR strula2@strula.com strula2 5 parolaOK parolaOK
+LOGIN_ABONAT mula@strula.com sculabob
+LOGIN_ABONAT mula@strula.com parolaOK
+ADAUGA_ANTRENOR strula@strula.com
+LOGOUT_ABONAT mula@strula.com
+ADAUGA_ANTRENOR strula@strula.com
+LOGIN_ABONAT mula2@strula.com parolaOK
+ADAUGA_ANTRENOR strula2@strula.com
+ADAUGA_ANTRENOR strula@strula.com
+LOGIN_ANTRENOR strula@strula.com parolaOK
+VIZUALIZARE_ABONATII_MEI
+LOGOUT_ANTRENOR strula@strula.com
+LOGIN_ANTRENOR strula2@strula.com parolaOK
+VIZUALIZARE_ABONATII_MEI

@@ -1,0 +1,12 @@
+Abonatul mula a fost adaugat!
+Abonatul mula2 a fost adaugat!
+Antrenorul strula a fost adaugat!
+Antrenorul strula2 a fost adaugat!
+Parola incorecta!
+Abonatul mula@strula.com a fost deconectat!
+Nu exista niciun abonat logat!
+Antrenorul cu mailulstrula@strula.com are abonatii cu mailurile:
+mula@strula.com mula2@strula.com 
+Antrenorul strula@strula.com a fost deconectat!
+Antrenorul cu mailulstrula2@strula.com are abonatii cu mailurile:
+
