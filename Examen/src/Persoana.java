@@ -50,5 +50,7 @@ public class Persoana implements Observer{
         return "A fost notificata persoana cu adresa de email" + mail + "de stirea cu mesajul " + news + '\n';
     }
 
-
+    public String getName() {
+        return name;
+    }
 }

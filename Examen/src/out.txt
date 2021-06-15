@@ -1,18 +1,28 @@
-Abonatul mula a fost adaugat!
-Abonatul mula2 a fost adaugat!
-Antrenorul strula a fost adaugat!
-Antrenorul strula2 a fost adaugat!
-Parola incorecta!
-Abonatul mula@strula.com a fost deconectat!
+Abonatul Alex a fost adaugat!
+Antrenorul Mihai a fost adaugat!
+Alt abonat este deja conectat
+Abonatul nume@yahoo.com a fost deconectat!
+Alt antrenor este deja conectat
+Abonatul nu era conectat!
+Abonatul nu era conectat!
+Abonatul cu adresa de email nume@yahoo.com a fost abonat la newsletter
+Abonatul nume@yahoo.com a fost deconectat!
+Alt antrenor este deja conectat
+Antrenorul cu adresa de email antrenor1@yahoo.com a fost abonat la newsletter
+A fost adaugata stirea cu mesajul ana
+A fost notificata persoana cu adresa de emailnume@yahoo.comde stirea cu mesajul ana
+A fost notificata persoana cu adresa de emailantrenor1@yahoo.comde stirea cu mesajul ana
+
+nume@yahoo.com are numele Alex si progresul 5
+antrenor1@yahoo.com are numele Mihai si 0 abonati
+Abonatul nu era conectat!
+Adresa de mail deja utilizata!
+Abonatul nume@yahoo.com a fost deconectat!
+Abonatul nu exista!
 Nu exista niciun abonat logat!
-Abonatul cu adresa de email mula2@strula.com a fost abonat la newsletter
-Antrenorul cu adresa de email strula@strula.com a fost abonat la newsletter
-Antrenorul cu mailul strula@strula.com are abonatii cu mailurile:
-mula@strula.com mula2@strula.com 
-Antrenorul strula@strula.com a fost deconectat!
-Antrenorul cu mailul strula2@strula.com are abonatii cu mailurile:
-
-A fost adaugata stirea cu mesajul reducere
-A fost notificata persoana cu adresa de emailmula2@strula.comde stirea cu mesajul reducere
-A fost notificata persoana cu adresa de emailstrula@strula.comde stirea cu mesajul reducere
-
+Abonatul nu era conectat!
+Alt antrenor este deja conectat
+Antrenorul cu mailul antrenor1@yahoo.com are abonatii cu mailurile:
+nume@yahoo.com 
+Abonatul nu era conectat!
+Persoana cu adresa de email nume@yahoo.com este deja in sala!Persoana cu adresa de email nume@yahoo.com este deja in sala!Persoana cu adresa de email nume@yahoo.com este deja in sala!antrenor1@yahoo.com: nume@yahoo.com, 

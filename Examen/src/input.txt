@@ -1,20 +1,39 @@
-SIGNUP_ABONAT mula@strula.com mula 5 parolaOK parolaOK
-SIGNUP_ABONAT mula2@strula.com mula2 5 parolaOK parolaOK
-SIGNUP_ANTRENOR strula@strula.com strula 5 parolaOK parolaOK
-SIGNUP_ANTRENOR strula2@strula.com strula2 5 parolaOK parolaOK
-LOGIN_ABONAT mula@strula.com sculabob
-LOGIN_ABONAT mula@strula.com parolaOK
-ADAUGA_ANTRENOR strula@strula.com
-LOGOUT_ABONAT mula@strula.com
-ADAUGA_ANTRENOR strula@strula.com
-LOGIN_ABONAT mula2@strula.com parolaOK
-ADAUGA_ANTRENOR strula2@strula.com
-ADAUGA_ANTRENOR strula@strula.com
-LOGIN_ANTRENOR strula@strula.com parolaOK
+SIGNUP_ABONAT nume@yahoo.com Alex 5 parola_mea parola_mea
+SIGNUP_ANTRENOR antrenor1@yahoo.com Mihai 8 parola_mea parola_mea
+LOGIN_ABONAT nume@yahoo.com parola_mea
+LOGIN_ABONAT nume2@gmail.com parola_mea_2
+LOGOUT_ABONAT nume@yahoo.com
+LOGIN_ANTRENOR antrenor1@yahoo.com parola_mea
+LOGIN_ANTRENOR antrenor2@gmail.com parola_mea_2
+LOGOUT_ANTRENOR antrenor1@yahoo.com
+LOGOUT_ANTRENOR antrenor2@yahoo.com
+LOGIN_ABONAT nume@yahoo.com parola_mea
 SUBSCRIBE_ABONAT
+LOGOUT_ABONAT nume@yahoo.com
+LOGIN_ANTRENOR antrenor1@yahoo.com parola_mea
 SUBSCRIBE_ANTRENOR
+ADAUGA_NEWS ana are
+VIZUALIZARE_ABONATI
+VIZUALIZARE_ANTRENORI
+LOGOUT_ANTRENOR antrenor1@yahoo.com
+SIGNUP_ABONAT antrenor1@yahoo.com Ion 5 parola_mea_3 parola_mea_3
+LOGIN_ABONAT nume@yahoo.com parola_mea
+ADAUGA_ANTRENOR antrenor1@yahoo.com
+LOGOUT_ABONAT nume@yahoo.com
+LOGIN_ABONAT nume2@gmail.com parola_mea_2
+ADAUGA_ANTRENOR antrenor1@yahoo.com
+LOGOUT_ABONAT nume2@gmail.com
+LOGIN_ANTRENOR antrenor1@yahoo.com parola_mea
 VIZUALIZARE_ABONATII_MEI
-LOGOUT_ANTRENOR strula@strula.com
-LOGIN_ANTRENOR strula2@strula.com parolaOK
-VIZUALIZARE_ABONATII_MEI
-ADAUGA_NEWS reducere la case din chirpici
+LOGOUT_ANTRENOR antrenor1@yahoo.com
+INTRA_IN_SALA nume@yahoo.com
+INTRA_IN_SALA nume@yahoo.com
+INTRA_IN_SALA nume2@gmail.com
+IESE_DIN_SALA nume@yahoo.com
+INTRA_IN_SALA nume2@gmail.com
+INTRA_IN_SALA nume@yahoo.com
+INTRA_IN_SALA antrenor1@yahoo.com
+INTRA_IN_SALA antrenor2@gmail.com
+IESE_DIN_SALA nume2@gmail.com
+INTRA_IN_SALA nume@yahoo.com
+VIZUALIZARE_PERSOANE_CU_ANTRENOR

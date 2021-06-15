@@ -11,6 +11,7 @@ public class Fitness {
     private Newsletter fitnessNews = new Newsletter();
     private List<Persoana> persoaneInSala = new ArrayList<>();
     private Queue<Persoana> listaAsteptare = new PriorityQueue<>();
+    private StringBuilder StringBuilderInstance = new StringBuilder();
 
     private Fitness(){
     }
@@ -21,6 +22,61 @@ public class Fitness {
         }
 
         return instance;
+    }
+
+    public String vizualizareAntrenori(){
+        StringBuilderInstance.setLength(0);
+        ArrayList<Antrenor> antrenori = new ArrayList<>();
+
+        for(Persoana persoana : persoane) {
+            if(persoana instanceof Antrenor)
+                antrenori.add((Antrenor) persoana);
+        }
+        antrenori.sort(new AntrenorSorter());
+
+
+        for(Antrenor antrenor : antrenori){
+            StringBuilderInstance.append(antrenor.getMail() + " are numele " + antrenor.getName() + " si " + antrenor.getNrCursanti() + " abonati" + "\n");
+        }
+        return StringBuilderInstance.toString();
+    }
+
+    public String vizualizareAbonati(){
+        StringBuilderInstance.setLength(0);
+        ArrayList<Abonat> abonati = new ArrayList<>();
+
+        for(Persoana persoana : persoane) {
+            if(persoana instanceof Abonat)
+                abonati.add((Abonat) persoana);
+        }
+        abonati.sort(new ProgressSorter());
+
+
+        for(Abonat abonat : abonati){
+            StringBuilderInstance.append(abonat.getMail() + " are numele " + abonat.getName() + " si progresul " + abonat.getProgress() + "\n");
+        }
+        return StringBuilderInstance.toString();
+    }
+
+    public String vizualizarePersoaneCuAntrenor(){
+        StringBuilderInstance.setLength(0);
+        Map<Persoana, List<Abonat>> persoaneCuAntrenorMap= new HashMap<>();
+
+        for(Persoana persoana : persoane){
+            if(persoana instanceof Antrenor){
+                if(((Antrenor) persoana).getAbonatiiMei()!=null)
+                    persoaneCuAntrenorMap.put(persoana, ((Antrenor) persoana).getAbonatiiMei());
+            }
+        }
+
+        for(Map.Entry<Persoana, List<Abonat>> mapElement : persoaneCuAntrenorMap.entrySet()){
+            StringBuilderInstance.append(mapElement.getKey().getMail() + ": ");
+            for(Abonat abonat : mapElement.getValue()){
+                StringBuilderInstance.append(abonat.getMail() + ", ");
+            }
+            StringBuilderInstance.append("\n");
+        }
+        return StringBuilderInstance.toString();
     }
 
     public String iesiDinSala(String email){
@@ -102,7 +158,7 @@ public class Fitness {
         if(getAntrenor(email) == null)
             return "Nu exista antrenorul cu emailul " + email;
 
-        if(getAntrenor(email).getNrCursanti() >= 10)
+        if(getAntrenor(email).getNrCursanti() >= getAntrenor(email).getNrMaxCursanti())
             return "Antrenorul nu mai are locuri libere";
 
 
@@ -174,22 +230,30 @@ public class Fitness {
 
 
     public String logoutAbonat(String email){
-        if(email.equals(abonatCurent.getMail())) {
-            abonatCurent = null;
-            return "Abonatul " + email + " a fost deconectat!";
+        if(email!=null && abonatCurent!=null) {
+            if (email.equals(abonatCurent.getMail())) {
+                abonatCurent = null;
+                return "Abonatul " + email + " a fost deconectat!";
+            } else {
+                return "Abonatul nu era conectat!";
+            }
         }
-        else{
+        else {
             return "Abonatul nu era conectat!";
         }
     }
 
     public String logoutAntrenor(String email){
-        if(email.equals(antrenorCurent.getMail())) {
-            antrenorCurent = null;
-            return "Antrenorul " + email + " a fost deconectat!";
+        if(email!=null && abonatCurent!=null) {
+            if (email.equals(antrenorCurent.getMail())) {
+                antrenorCurent = null;
+                return "Antrenorul " + email + " a fost deconectat!";
+            } else {
+                return "Antrenorul nu era conectat!";
+            }
         }
-        else{
-            return "Antrenorul nu era conectat!";
+        else {
+            return "Abonatul nu era conectat!";
         }
     }
 

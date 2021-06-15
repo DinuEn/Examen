@@ -3,12 +3,13 @@ import java.util.ArrayList;
 
 
 public class Antrenor extends Persoana{
+    private int nrMaxCursanti = 0;
     private int nrCursanti = 0;
     private ArrayList<Abonat> abonatiiMei = new ArrayList<Abonat>();
 
-    public Antrenor(String name, String mail, String password, int id, ArrayList<LocalDateTime> entry_dates, int nrCursanti) {
+    public Antrenor(String name, String mail, String password, int id, ArrayList<LocalDateTime> entry_dates, int nrMaxCursanti) {
         super(name, mail, password, id, entry_dates);
-        this.nrCursanti = nrCursanti;
+        this.nrMaxCursanti = nrMaxCursanti;
     }
 
     public int getNrCursanti() {
@@ -19,6 +20,7 @@ public class Antrenor extends Persoana{
         abonatiiMei.add(abonatNou);
         nrCursanti++;
     }
+
 
     public void eliminaAbonat(Abonat abonatDeScos){
 
@@ -44,5 +46,14 @@ public class Antrenor extends Persoana{
 
         return listaAbonati.toString();
     }
+
+    public ArrayList<Abonat> getAbonatiiMei() {
+        return abonatiiMei;
+    }
+
+    public int getNrMaxCursanti() {
+        return nrMaxCursanti;
+    }
+
 
 }

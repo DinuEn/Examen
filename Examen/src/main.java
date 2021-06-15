@@ -1,9 +1,10 @@
+import javax.xml.crypto.Data;
 import java.io.*;
 
 public class main {
     Fitness gym = Fitness.getInstance();
     public static void main(String[] args) throws Exception {
-
+        DataBase.connectToDB();
         Fitness gym = Fitness.getInstance();
         BufferedWriter writer = new BufferedWriter(new FileWriter("Examen/src/out.txt"));
         BufferedReader reader = new BufferedReader(new FileReader("Examen/src/input.txt"));
@@ -143,18 +144,31 @@ public class main {
                     break;
 
                 case "VIZUALIZARE_PERSOANE_CU_ANTRENOR":
+                    message = gym.vizualizarePersoaneCuAntrenor();
+                    if(!message.equals(""))
+                        writer.write(message);
                     break;
 
                 case "VIZUALIZARE_ABONATI":
+                    message = gym.vizualizareAbonati();
+                    if(!message.equals(""))
+                        writer.write(message);
                     break;
 
                 case "VIZUALIZARE_ANTRENORI":
+                    message = gym.vizualizareAntrenori();
+                    if(!message.equals(""))
+                        writer.write(message);
                     break;
 
                 case "PERSISTA_ABONATI":
+                    //apelare functie
+                    writer.write("Abonatii au fost salvati in baza de date");
                     break;
 
                 case "PERSISTA_ANTRENORI":
+                    //apelare functie
+                    writer.write("Antrenorii au fost salvati in baza de date");
                     break;
             }
 
